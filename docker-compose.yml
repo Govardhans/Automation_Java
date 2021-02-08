@@ -1,0 +1,18 @@
+version: '3'
+services: 
+  web:    
+    build: 
+      context: .
+      dockerfile: Dockerfile    
+    depends_on:
+      - chrome
+    command: ["mvn", "clean", "test", "-Dselenide.remote=http://host.docker.internal:4444/wd/hub"]
+
+  chrome:
+    image: selenium/standalone-chrome:88.0
+    ports:
+      - "4444:4444"
+    logging: 
+      driver: none
+    volumes:
+      - /dev/shm:/dev/shm    

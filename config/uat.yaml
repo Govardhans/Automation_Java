@@ -1,0 +1,15 @@
+---
+url: 'https://www.westwingnow.de/'
+userName: userName_prod
+password: encrypted password
+
+#Additional properties apart from environment can go here
+s3BucketLink: "link"
+watchDogLink: "link"
+apiKeys:
+  - type: "basicAuth"
+    usr: "usr"
+    pass: "*****"
+  - type: "oAuth"
+    usr: "usr"
+    pass: "*****"
