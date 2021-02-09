@@ -1,4 +1,4 @@
-package de.westwingnow.page.object.wishlist;
+package de.westwingnow.page.object.components.wishlist;
 
 import de.westwingnow.page.object.common.AbstractComponent;
 import org.openqa.selenium.WebDriver;

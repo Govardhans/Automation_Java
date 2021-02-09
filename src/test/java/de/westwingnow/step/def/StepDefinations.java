@@ -2,11 +2,9 @@ package de.westwingnow.step.def;
 
 import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.WebDriverRunner;
-
 import de.westwingnow.config.TestConfig;
 import de.westwingnow.exceptions.WishListProductIndexOutOfBound;
-import de.westwingnow.page.object.HomePage;
-
+import de.westwingnow.page.object.pages.HomePage;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
@@ -51,14 +49,14 @@ public class StepDefinations extends BaseSteps {
 
     @Then("I should see product listing page with a list of products")
     public void iShouldSeeProductListingPageWithAListOfProducts() {
-        productComponent =
+        productContainerComponent =
                 homePage.getContainerComponent().getMainContentComponent().getProductComponent();
-        productComponent.isDisplayed();
+        productContainerComponent.isDisplayed();
     }
 
     @When("I click on wishlist icon of the first found product")
     public void iClickOnWishlistIconOfTheFirstFoundProduct() {
-        productComponent.addProductInWishList(1);
+        productContainerComponent.addProductInWishList(1);
     }
 
     @Given("I store current wish list item's count in to {string}")

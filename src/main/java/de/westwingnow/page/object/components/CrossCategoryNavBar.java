@@ -1,4 +1,4 @@
-package de.westwingnow.page.object.container.content.main;
+package de.westwingnow.page.object.components;
 
 public class CrossCategoryNavBar {
 

@@ -1,4 +1,4 @@
-package de.westwingnow.page.object.login;
+package de.westwingnow.page.object.components.login;
 
 import de.westwingnow.page.object.common.AbstractComponent;
 import org.openqa.selenium.WebDriver;

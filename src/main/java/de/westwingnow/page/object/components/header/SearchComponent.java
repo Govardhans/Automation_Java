@@ -1,4 +1,4 @@
-package de.westwingnow.page.object.header;
+package de.westwingnow.page.object.components.header;
 
 import de.westwingnow.page.object.common.AbstractComponent;
 import org.openqa.selenium.Keys;

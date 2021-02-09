@@ -3,6 +3,11 @@ package de.westwingnow.utils;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * Test context has Map<string, object>
+ *  this can be used to store result of the test step and
+ *  share with other test steps
+ */
 public class TestContext {
 
     private Map<String, Object> scenarioContext;

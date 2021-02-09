@@ -1,4 +1,4 @@
-package de.westwingnow.page.object.header;
+package de.westwingnow.page.object.components.header;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;

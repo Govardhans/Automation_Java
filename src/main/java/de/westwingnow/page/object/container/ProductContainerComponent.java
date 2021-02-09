@@ -1,4 +1,4 @@
-package de.westwingnow.page.object.container.content.main;
+package de.westwingnow.page.object.container;
 
 import de.westwingnow.page.object.common.AbstractComponent;
 import de.westwingnow.page.object.model.Product;
@@ -12,9 +12,9 @@ import org.slf4j.LoggerFactory;
 
 import java.util.List;
 
-public class ProductComponent extends AbstractComponent {
+public class ProductContainerComponent extends AbstractComponent {
 
-    private static final Logger LOG = LoggerFactory.getLogger(ProductComponent.class);
+    private static final Logger LOG = LoggerFactory.getLogger(ProductContainerComponent.class);
 
     @FindBy(css = "div[data-testid='generic-product']")
     List<WebElement> genericProductList;
@@ -31,7 +31,7 @@ public class ProductComponent extends AbstractComponent {
     @FindBy(css = "data-testid='product-title'")
     List<WebElement> productTitleList;
 
-    public ProductComponent(WebDriver driver) {
+    public ProductContainerComponent(WebDriver driver) {
         super(driver);
     }
 

@@ -1,9 +1,9 @@
-package de.westwingnow.page.object;
+package de.westwingnow.page.object.pages;
 
 import com.codeborne.selenide.Selenide;
 import de.westwingnow.page.object.container.ContainerComponent;
-import de.westwingnow.page.object.header.Header;
-import de.westwingnow.page.object.login.LoginOrRegisterComponent;
+import de.westwingnow.page.object.components.header.Header;
+import de.westwingnow.page.object.components.login.LoginOrRegisterComponent;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;

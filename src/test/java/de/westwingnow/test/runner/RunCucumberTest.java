@@ -17,6 +17,8 @@ import org.junit.runner.RunWith;
         glue = "de.westwingnow.step.def",
         dryRun = false,
         publish = true,
+        monochrome = true,
+        stepNotifications = true,
         snippets = CucumberOptions.SnippetType.CAMELCASE,
         plugin = {"json:target/json-cucumber-reports/cukejson.json", "html:target/cucumber-report/1.html", "pretty"}
 

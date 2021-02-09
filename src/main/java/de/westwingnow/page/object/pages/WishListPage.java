@@ -1,5 +1,8 @@
-package de.westwingnow.page.object.wishlist;
+package de.westwingnow.page.object.pages;
 
+import de.westwingnow.page.object.components.wishlist.MoodBoard;
+import de.westwingnow.page.object.components.wishlist.WishListContainerComponent;
+import de.westwingnow.page.object.components.wishlist.WishListNavBar;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 

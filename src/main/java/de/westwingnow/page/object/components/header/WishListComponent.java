@@ -1,7 +1,7 @@
-package de.westwingnow.page.object.header;
+package de.westwingnow.page.object.components.header;
 
 import de.westwingnow.page.object.common.AbstractComponent;
-import de.westwingnow.page.object.wishlist.WishListPage;
+import de.westwingnow.page.object.pages.WishListPage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;

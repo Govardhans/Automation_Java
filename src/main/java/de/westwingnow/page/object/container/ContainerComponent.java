@@ -1,8 +1,7 @@
 package de.westwingnow.page.object.container;
 
-import de.westwingnow.page.object.container.content.BreadCrumbsComponent;
-import de.westwingnow.page.object.container.content.MainContentComponent;
-import de.westwingnow.page.object.container.content.SideBarComponent;
+import de.westwingnow.page.object.components.BreadCrumbsComponent;
+import de.westwingnow.page.object.components.SideBarComponent;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 

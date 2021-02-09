@@ -1,8 +1,7 @@
-package de.westwingnow.page.object.container.content;
+package de.westwingnow.page.object.container;
 
-import de.westwingnow.page.object.container.content.main.CrossCategoryNavBar;
-import de.westwingnow.page.object.container.content.main.FilterAndSortComponent;
-import de.westwingnow.page.object.container.content.main.ProductComponent;
+import de.westwingnow.page.object.components.CrossCategoryNavBar;
+import de.westwingnow.page.object.components.FilterAndSortComponent;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 
@@ -11,12 +10,12 @@ public class MainContentComponent {
 
     private CrossCategoryNavBar crossCategoryNavBar;
     private FilterAndSortComponent filterAndSortComponent;
-    private ProductComponent productComponent;
+    private ProductContainerComponent productContainerComponent;
 
     public MainContentComponent(final WebDriver driver) {
         crossCategoryNavBar = PageFactory.initElements(driver, CrossCategoryNavBar.class);
         filterAndSortComponent = PageFactory.initElements(driver, FilterAndSortComponent.class);
-        productComponent = PageFactory.initElements(driver, ProductComponent.class);
+        productContainerComponent = PageFactory.initElements(driver, ProductContainerComponent.class);
     }
 
     public CrossCategoryNavBar getCrossCategoryNavBar() {
@@ -27,7 +26,7 @@ public class MainContentComponent {
         return filterAndSortComponent;
     }
 
-    public ProductComponent getProductComponent() {
-        return productComponent;
+    public ProductContainerComponent getProductComponent() {
+        return productContainerComponent;
     }
 }
