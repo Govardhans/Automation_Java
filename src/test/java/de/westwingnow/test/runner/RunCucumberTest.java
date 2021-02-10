@@ -41,6 +41,7 @@ public class RunCucumberTest {
         new TestConfig();
         Configuration.baseUrl = TestConfig.URL;
         Configuration.browser = StaticConfig.BROWSER;
+        Configuration.browserSize = "1920x1080";
         Configuration.fastSetValue = true;
         Configuration.timeout = StaticConfig.WAIT_IN_MILLIS;
         Configuration.headless = StaticConfig.HEADLESS;

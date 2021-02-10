@@ -12,7 +12,7 @@ In order to run the provided application, please make sure you have `docker` and
 
 ### 📟 Building and Running the automation scripts
 
-Execute the following commands inside the `WESTWINGNOW` or `.` root folder.
+Execute the following commands inside the `project root` folder.
 
 `Build` the docker image:
 
@@ -28,7 +28,7 @@ docker-compose -f docker-compose.yml up
 ### 📟 Running the automation scripts locally
 
 In order to install and execute automation scripts locally,
-you will need `npm` installed on your machine
+you will need `mvn` installed on your machine
 
 Execute following commands inside `project root` directory
 
