@@ -6,6 +6,10 @@ Manual Testing of all workflows, all fields, all negative scenarios is time and 
 
 For this purpose this project provides the `automation script` written in the `Cucumber - BDD` way.
 
+## Technology Stack
+![Selenide Logo](https://selenide.org/images/selenide-logo-big.png)
+![Cucumber Logo](https://github.com/cucumber-ltd/brand/raw/master/images/png/notm/cucumber-black/cucumber-black-128.png)
+
 ## 🚀 Getting started
 
 In order to run the provided application, please make sure you have `docker` and `docker-compose` installed on your system.
